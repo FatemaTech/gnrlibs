@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ad">Ad</string>
+    <string name="ad_script"><![CDATA[
+    <html>
+	<body>
+	<script>
+      %s
+      </script>
+	</body>
+	</html>]]></string>
+</resources>

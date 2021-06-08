@@ -1,0 +1,1 @@
+C:\Users\Tech\AndroidStudioProjects\Devsnet\GnrLibs\buildSrc\build\classes\kotlin\main\Libs.class;C:\Users\Tech\AndroidStudioProjects\Devsnet\GnrLibs\buildSrc\build\classes\kotlin\main\Versions.class;C:\Users\Tech\AndroidStudioProjects\Devsnet\GnrLibs\buildSrc\build\classes\kotlin\main\VersionsKt.class

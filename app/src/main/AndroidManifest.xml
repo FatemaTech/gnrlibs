@@ -16,9 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AdmobActivity"/>
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-1661120152697212~3085866484"/>
+            android:value="ca-app-pub-1661120152697212~9141521831"/>
     </application>
 
 </manifest>

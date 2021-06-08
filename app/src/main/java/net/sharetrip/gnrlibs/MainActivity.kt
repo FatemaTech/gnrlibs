@@ -1,7 +1,8 @@
 package net.sharetrip.gnrlibs
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import net.sharetrip.gnrlibrary.ad.AdRequestHandler
 import net.sharetrip.gnrlibrary.ad.FullscreenAd
 import net.sharetrip.gnrlibs.databinding.ActivityMainBinding
@@ -13,13 +14,16 @@ class MainActivity : AppCompatActivity() {
         val bindingView = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bindingView.root)
 
+        bindingView.buttonAdmob.setOnClickListener {
+            val intent = Intent(this, AdmobActivity::class.java)
+            startActivity(intent)
+        }
+        AdRequestHandler.initialize()
 
-           AdRequestHandler.initialize()
+        FullscreenAd().show(
+            supportFragmentManager, "TAG"
+        )
 
-           FullscreenAd().show(
-               supportFragmentManager, "TAG"
-           )
-
-           bindingView.bannerAdView.loadAdd()
+        bindingView.bannerAdView.loadAdd()
     }
 }

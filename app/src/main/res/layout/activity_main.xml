@@ -8,6 +8,16 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAdmob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admob"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:backgroundTint="#AA0EEF"
+            app:layout_constraintTop_toTopOf="parent" />
+
 
         <net.sharetrip.gnrlibrary.ad.BannerAd
             android:id="@+id/bannerAdView"

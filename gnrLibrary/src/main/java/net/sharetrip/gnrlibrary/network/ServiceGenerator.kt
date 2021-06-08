@@ -1,7 +1,8 @@
-package net.sharetrip.gnrads.network
+package net.sharetrip.gnrlibrary.network
 
 
-import net.sharetrip.gnrads.BuildConfig
+import androidx.databinding.library.BuildConfig
+import net.sharetrip.gnrads.network.NetworkResponseAdapterFactory
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.Request

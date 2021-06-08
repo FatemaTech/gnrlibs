@@ -5,7 +5,7 @@ import kotlinx.coroutines.launch
 import net.sharetrip.gnrads.apiinterface.AdEndpoint
 import net.sharetrip.gnrads.model.AdRequest
 import net.sharetrip.gnrads.network.BaseResponse
-import net.sharetrip.gnrads.network.ServiceGenerator
+import net.sharetrip.gnrlibrary.network.ServiceGenerator
 
 object AdRequestHandler {
     private val endPoint = ServiceGenerator.createService(AdEndpoint::class.java)

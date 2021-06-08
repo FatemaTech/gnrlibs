@@ -14,10 +14,10 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
-plugins {
+/*plugins {
     id("de.fayard.buildSrcVersions") version "0.7.0"
     id("org.jetbrains.kotlin.android") version "1.4.21" apply false
-}
+}*/
 
 allprojects {
     repositories {

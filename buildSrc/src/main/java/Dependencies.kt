@@ -152,7 +152,7 @@ object Libs {
      * https://developers.google.com/admob/android/quick-start#import_the_mobile_ads_sdk
      */
 
-    const val gnrAdLibs: String = "com.github.FatemaTech:AdLibs:" + Versions.gnrAdLibs
+    const val gnrAdLibs: String = "com.github.FatemaTech:gnrlibs:" + Versions.gnrAdLibs
 
     /**
      * https://developers.google.com/admob/android/quick-start#import_the_mobile_ads_sdk

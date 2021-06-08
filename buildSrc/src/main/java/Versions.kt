@@ -46,7 +46,7 @@ object Versions {
 
     const val admob: String = "20.1.0"
 
-    const val gnrAdLibs: String = "1.0.0"
+    const val gnrAdLibs: String = "1.0.3"
 
     const val navigation_saf_args = "2.3.2"
 }

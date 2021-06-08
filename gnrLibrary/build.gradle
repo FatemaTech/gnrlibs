@@ -63,9 +63,5 @@ dependencies {
     // Coil - Image loading library
     implementation(Libs.coil)
 
-
     implementation(Libs.admob)
-
-    //gnrAds - Ad Library
-    implementation(Libs.gnrAdLibs)
 }
